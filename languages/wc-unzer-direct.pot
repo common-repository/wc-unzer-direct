@@ -1,0 +1,899 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Unzer Direct\n"
+"POT-Creation-Date: 2022-04-07 09:08+0200\n"
+"PO-Revision-Date: 2016-06-21 13:16+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wc-unzer-direct.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: sources\n"
+"X-Poedit-SearchPathExcluded-3: node_modules\n"
+"X-Poedit-SearchPathExcluded-4: bin\n"
+"X-Poedit-SearchPathExcluded-5: svn-dist\n"
+
+#: classes/api/wc-unzer-direct-api-transaction.php:65
+msgid "Pending - check your Unzer Direct manager"
+msgstr ""
+
+#: classes/api/wc-unzer-direct-api-transaction.php:416
+msgid "Transaction ID cannot be empty"
+msgstr ""
+
+#: classes/emails/wc-unzer-direct-payment-link-email.php:13
+msgid "Payment link created"
+msgstr ""
+
+#: classes/emails/wc-unzer-direct-payment-link-email.php:14
+msgid "This e-mail is sent upon manual payment link creation by a shop admin."
+msgstr ""
+
+#: classes/emails/wc-unzer-direct-payment-link-email.php:93
+msgid "Enable/Disable"
+msgstr ""
+
+#: classes/emails/wc-unzer-direct-payment-link-email.php:95
+msgid "Enable this email notification"
+msgstr ""
+
+#: classes/emails/wc-unzer-direct-payment-link-email.php:99
+msgid "Subject"
+msgstr ""
+
+#: classes/emails/wc-unzer-direct-payment-link-email.php:103
+#: classes/emails/wc-unzer-direct-payment-link-email.php:112
+#, php-format
+msgid "Available placeholders: %s"
+msgstr ""
+
+#: classes/emails/wc-unzer-direct-payment-link-email.php:108
+msgid "Email heading"
+msgstr ""
+
+#: classes/emails/wc-unzer-direct-payment-link-email.php:117
+msgid "Email type"
+msgstr ""
+
+#: classes/emails/wc-unzer-direct-payment-link-email.php:119
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: classes/emails/wc-unzer-direct-payment-link-email.php:135
+msgid "Payment link for your order ({order_number})"
+msgstr ""
+
+#: classes/emails/wc-unzer-direct-payment-link-email.php:145
+msgid "This is your payment link"
+msgstr ""
+
+#: classes/instances/apple-pay.php:37 classes/instances/google-pay.php:36
+#: classes/instances/klarna.php:35 classes/instances/paypal.php:37
+#: classes/instances/sofort.php:37 classes/instances/unzer-direct-extra.php:41
+#: classes/instances/unzer-direct-invoice.php:36
+#: classes/wc-unzer-direct-settings.php:25
+#: classes/wc-unzer-direct-settings.php:54
+#: classes/wc-unzer-direct-settings.php:62
+#: classes/wc-unzer-direct-settings.php:108
+#: classes/wc-unzer-direct-settings.php:116
+#: classes/wc-unzer-direct-settings.php:124
+#: classes/wc-unzer-direct-settings.php:131
+#: classes/wc-unzer-direct-settings.php:218
+#: classes/wc-unzer-direct-settings.php:252
+#: classes/wc-unzer-direct-settings.php:335
+msgid "Enable"
+msgstr ""
+
+#: classes/instances/apple-pay.php:39 classes/instances/google-pay.php:38
+#: classes/instances/klarna.php:37 classes/instances/paypal.php:39
+#: classes/instances/sofort.php:39
+#, php-format
+msgid "Enable %s payment"
+msgstr ""
+
+#: classes/instances/apple-pay.php:40 classes/instances/google-pay.php:39
+#, php-format
+msgid "Works only in %s."
+msgstr ""
+
+#: classes/instances/apple-pay.php:45 classes/instances/google-pay.php:44
+#: classes/instances/klarna.php:42 classes/instances/paypal.php:44
+#: classes/instances/sofort.php:44 classes/instances/unzer-direct-extra.php:48
+#: classes/instances/unzer-direct-invoice.php:43
+#: classes/wc-unzer-direct-settings.php:149
+msgid "Shop setup"
+msgstr ""
+
+#: classes/instances/apple-pay.php:48 classes/instances/google-pay.php:47
+#: classes/instances/klarna.php:45 classes/instances/paypal.php:47
+#: classes/instances/sofort.php:47 classes/instances/unzer-direct-extra.php:51
+#: classes/instances/unzer-direct-invoice.php:46
+#: classes/wc-unzer-direct-settings.php:152
+msgid "Title"
+msgstr ""
+
+#: classes/instances/apple-pay.php:50 classes/instances/google-pay.php:49
+#: classes/instances/klarna.php:47 classes/instances/paypal.php:49
+#: classes/instances/sofort.php:49 classes/instances/unzer-direct-extra.php:53
+#: classes/instances/unzer-direct-invoice.php:48
+#: classes/wc-unzer-direct-settings.php:154
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: classes/instances/apple-pay.php:54 classes/instances/google-pay.php:53
+#: classes/instances/klarna.php:51 classes/instances/paypal.php:53
+#: classes/instances/sofort.php:53 classes/instances/unzer-direct-extra.php:57
+#: classes/instances/unzer-direct-invoice.php:52
+#: classes/wc-unzer-direct-settings.php:159
+msgid "Customer Message"
+msgstr ""
+
+#: classes/instances/apple-pay.php:56 classes/instances/google-pay.php:55
+#: classes/instances/klarna.php:53 classes/instances/paypal.php:55
+#: classes/instances/sofort.php:55 classes/instances/unzer-direct-extra.php:59
+#: classes/instances/unzer-direct-invoice.php:54
+#: classes/wc-unzer-direct-settings.php:161
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: classes/instances/apple-pay.php:57 classes/instances/google-pay.php:56
+#: classes/instances/klarna.php:54 classes/instances/paypal.php:56
+#: classes/instances/sofort.php:56
+#, php-format
+msgid "Pay with %s"
+msgstr ""
+
+#: classes/instances/instance.php:57 wc-unzer-direct.php:1049
+#, php-format
+msgid "Allows you to receive payments via %s"
+msgstr ""
+
+#: classes/instances/instance.php:58
+msgid "This module has it's main configuration inside the 'Unzer Direct' tab."
+msgstr ""
+
+#: classes/instances/instance.php:59
+#, php-format
+msgid "Click <a href=\"%s\">here</a> to access the main configuration."
+msgstr ""
+
+#: classes/instances/unzer-direct-extra.php:43
+msgid "Enable Extra Unzer Direct gateway"
+msgstr ""
+
+#: classes/instances/unzer-direct-extra.php:54
+#: classes/wc-unzer-direct-settings.php:155
+msgid "Unzer Direct"
+msgstr ""
+
+#: classes/instances/unzer-direct-extra.php:60
+msgid "Pay"
+msgstr ""
+
+#: classes/instances/unzer-direct-extra.php:63
+#: classes/wc-unzer-direct-settings.php:92
+msgid "Payment methods"
+msgstr ""
+
+#: classes/instances/unzer-direct-extra.php:65
+#: classes/wc-unzer-direct-settings.php:94
+msgid ""
+"Default: creditcard. Type in the cards you wish to accept (comma separated). "
+"See the valid payment types here: <b>https://www.unzerdirect.com/"
+"documentation//appendixes/payment-methods/</b>"
+msgstr ""
+
+#: classes/instances/unzer-direct-extra.php:69
+#: classes/wc-unzer-direct-settings.php:180
+msgid "Credit card icons"
+msgstr ""
+
+#: classes/instances/unzer-direct-extra.php:71
+#: classes/wc-unzer-direct-settings.php:182
+msgid ""
+"Choose the card icons you wish to show next to the Unzer Direct payment "
+"option in your shop."
+msgstr ""
+
+#: classes/instances/unzer-direct-extra.php:76
+#: classes/wc-unzer-direct-settings.php:187
+msgid "Select icons"
+msgstr ""
+
+#: classes/instances/unzer-direct-invoice.php:38
+msgid "Enable Unzer Invoice payment"
+msgstr ""
+
+#: classes/instances/unzer-direct-invoice.php:55
+msgid "Pay with %"
+msgstr ""
+
+#: classes/modules/wc-unzer-direct-admin-orders.php:47
+#, php-format
+msgid "Payment links created for %d orders."
+msgstr ""
+
+#: classes/modules/wc-unzer-direct-admin-orders.php:72
+#, php-format
+msgid "Payment link creation skipped for order #%s"
+msgstr ""
+
+#: classes/modules/wc-unzer-direct-admin-orders.php:87
+msgid "A parent order must be mapped to the subscription."
+msgstr ""
+
+#: classes/modules/wc-unzer-direct-admin-orders.php:108
+#, php-format
+msgid "Invalid payment link received from API for order #%s"
+msgstr ""
+
+#: classes/modules/wc-unzer-direct-admin-orders.php:122
+#, php-format
+msgid "Payment link manually created from backend: %s"
+msgstr ""
+
+#: classes/modules/wc-unzer-direct-admin-orders.php:128
+#, php-format
+msgid "Payment link could not be created for order #%s. Error: %s"
+msgstr ""
+
+#: classes/modules/wc-unzer-direct-admin-orders.php:161
+#, php-format
+msgid "Payment links created for %d subscriptions."
+msgstr ""
+
+#: classes/modules/wc-unzer-direct-admin-orders.php:173
+#: classes/modules/wc-unzer-direct-admin-orders.php:186
+msgid "Create payment link"
+msgstr ""
+
+#: classes/modules/wc-unzer-direct-orders.php:33
+msgid "Payment cancelled due to order cancellation"
+msgstr ""
+
+#: classes/modules/wc-unzer-direct-orders.php:64
+msgid ""
+"Automatically completing order status due to successful recurring payment"
+msgstr ""
+
+#: classes/wc-unzer-direct-callbacks.php:26
+#, php-format
+msgid "An error occured while setting transaction id: %d on order %s. %s"
+msgstr ""
+
+#: classes/wc-unzer-direct-callbacks.php:38
+#, php-format
+msgid "Payment authorized. Transaction ID: %s"
+msgstr ""
+
+#: classes/wc-unzer-direct-callbacks.php:53
+msgid "Payment captured."
+msgstr ""
+
+#: classes/wc-unzer-direct-callbacks.php:72
+#, php-format
+msgid "Subscription authorized. Transaction ID: %s"
+msgstr ""
+
+#: classes/wc-unzer-direct-exceptions.php:81
+#, php-format
+msgid ""
+"An error occured. For more information check out the <strong>%s</strong> "
+"logs inside <strong>WooCommerce -> System Status -> Logs</strong>."
+msgstr ""
+
+#: classes/wc-unzer-direct-install.php:144
+msgid "You are not authorized to perform this action"
+msgstr ""
+
+#: classes/wc-unzer-direct-order.php:189
+msgid "Payment Fee"
+msgstr ""
+
+#: classes/wc-unzer-direct-order.php:644
+msgid "Customer Email"
+msgstr ""
+
+#: classes/wc-unzer-direct-order.php:649
+msgid "Customer Phone"
+msgstr ""
+
+#: classes/wc-unzer-direct-order.php:654
+msgid "User Agent"
+msgstr ""
+
+#: classes/wc-unzer-direct-order.php:659
+msgid "Shipping Method"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:27
+msgid "Enable Unzer Direct Payment"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:33
+msgid "API - Integration"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:36
+#: classes/wc-unzer-direct-settings.php:359
+msgid "Api User key"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:38
+msgid ""
+"Your API User's key. Create a separate API user in the \"Users\" tab inside "
+"the Unzer Direct manager."
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:42
+#: classes/wc-unzer-direct-settings.php:358
+msgid "Private key"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:44
+msgid ""
+"Your agreement private key. Found in the \"Integration\" tab inside the "
+"Unzer Direct manager."
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:49
+msgid "Autocapture settings"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:52
+msgid "Physical products (default)"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:55
+msgid "Automatically capture payments on physical products."
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:60
+msgid "Virtual products"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:63
+msgid ""
+"Automatically capture payments on virtual products. If the order contains "
+"both physical and virtual products, this setting will be overwritten by the "
+"default setting above."
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:69
+msgid "Transaction Cache"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:72
+msgid "Enable Caching"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:74
+msgid ""
+"Caches transaction data to improve application and web-server performance. "
+"<strong>Recommended.</strong>"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:79
+#: classes/wc-unzer-direct-settings.php:80
+msgid "Cache Expiration"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:82
+msgid ""
+"<strong>Time in seconds</strong> for how long a transaction should be "
+"cached. <strong>Default: 604800 (7 days).</strong>"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:89
+msgid "Extra gateway settings"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:98
+msgid "Branding ID"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:100
+msgid "Leave empty if you have no custom branding options"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:106
+msgid "Enable autofee"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:109
+msgid ""
+"If enabled, the fee charged by the acquirer will be calculated and added to "
+"the transaction amount."
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:114
+msgid "Capture on complete"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:117
+msgid ""
+"When enabled Unzer Direct payments will automatically be captured when order "
+"state is set to \"Complete\"."
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:122
+msgid "Complete order on capture callbacks"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:125
+msgid ""
+"When enabled, an order will be automatically completed when capture "
+"callbacks are sent to WooCommerce. Callbacks are sent by Unzer Direct when "
+"the payment is captured from either the shop or the Unzer Direct manager. "
+"Keep disabled to manually complete orders. "
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:129
+msgid "Cancel payments on order cancellation"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:132
+msgid ""
+"Automatically cancel payments via the API when an order's status changes to "
+"cancelled."
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:136
+msgid "Text on statement"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:138
+msgid ""
+"Text that will be placed on cardholder’s bank statement (MAX 22 ASCII "
+"characters. Must match the values defined in your agreement with Clearhaus. "
+"Custom values are not allowed)."
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:162
+msgid ""
+"Pay via Unzer Direct. Allows you to pay with your credit card via Unzer "
+"Direct."
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:166
+msgid "Order button text"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:168
+msgid "Text shown on the submit button when choosing payment method."
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:169
+msgid "Go to payment"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:173
+msgid "Email instructions"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:175
+msgid "Instructions that will be added to emails."
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:193
+msgid "Credit card icons maximum height"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:195
+msgid ""
+"Set the maximum pixel height of the credit card icons shown on the frontend."
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:201
+msgid "Google Analytics"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:204
+msgid "Tracking ID"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:206
+msgid "Your Google Analytics tracking ID. I.E: UA-XXXXXXXXX-X"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:212
+msgid "Shop Admin Setup"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:216
+msgid "Fetch Transaction Info"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:219
+msgid "Show transaction information in the order overview."
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:226
+msgid "Custom Variables"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:229
+msgid "Select Information"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:234
+msgid ""
+"Selected options will store the specific data on your transaction inside "
+"your Unzer Direct Manager."
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:238
+msgid "Select order data"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:250
+msgid "Complete renewal orders"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:253
+msgid ""
+"Automatically mark a renewal order as complete on successful recurring "
+"payments."
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:304
+msgid "Billing: Complete Customer Details"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:305
+msgid "Browser: User Agent"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:306
+msgid "Customer: Email Address"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:307
+msgid "Customer: Phone Number"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:308
+msgid "Shipping: Complete Customer Details"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:309
+msgid "Shipping: Shipping Method"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:323
+msgid "Debug"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:324
+msgid "View debug logs"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:327
+msgid "Empty debug logs"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:331
+msgid "Empty transaction cache"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:369
+msgid "WC Unzer Direct"
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:370
+#, php-format
+msgid ""
+"You have missing or incorrect settings. Go to the <a href=\"%s\">settings "
+"page</a>."
+msgstr ""
+
+#: classes/wc-unzer-direct-settings.php:373
+#, php-format
+msgid "<strong>%s</strong> is mandatory."
+msgstr ""
+
+#: helpers/notices.php:112
+msgid "Unzer Direct - Payment related problems registered"
+msgstr ""
+
+#: helpers/transactions.php:59
+msgid "Order does not need payment"
+msgstr ""
+
+#: templates/woocommerce/emails/customer-unzer-direct-payment-link.php:27
+#: templates/woocommerce/emails/plain/customer-unzer-direct-payment-link.php:25
+#, php-format
+msgid "Hi %s,"
+msgstr ""
+
+#: templates/woocommerce/emails/customer-unzer-direct-payment-link.php:29
+#: templates/woocommerce/emails/plain/customer-unzer-direct-payment-link.php:27
+msgid "Thank you for your order."
+msgstr ""
+
+#: templates/woocommerce/emails/customer-unzer-direct-payment-link.php:32
+#: templates/woocommerce/emails/plain/customer-unzer-direct-payment-link.php:29
+#, php-format
+msgid "Use the following link to pay and complete your order: %s"
+msgstr ""
+
+#: templates/woocommerce/emails/customer-unzer-direct-payment-link.php:56
+#: templates/woocommerce/emails/plain/customer-unzer-direct-payment-link.php:54
+msgid "Thanks for shopping with us."
+msgstr ""
+
+#: views/bulk-actions.php:3
+msgid "Capture payment and activate subscription"
+msgstr ""
+
+#: views/html-notice-update.php:12 views/html-notice-upgrading.php:12
+msgid "WC Unzer Direct - Data Update"
+msgstr ""
+
+#: views/html-notice-update.php:13
+msgid ""
+"To ensure you get the best experience at all times, we need to update your "
+"store's database to the latest version."
+msgstr ""
+
+#: views/html-notice-update.php:14
+msgid "Run the updater"
+msgstr ""
+
+#: views/html-notice-update.php:19
+msgid ""
+"It is strongly recommended that you backup your database before proceeding. "
+"Are you sure you wish to run the updater now?"
+msgstr ""
+
+#: views/html-notice-update.php:30 views/html-notice-upgrading.php:13
+msgid ""
+"The upgrader is now running. This might take a while. The notice will "
+"disappear once the upgrade is complete."
+msgstr ""
+
+#: views/html-order-table-transaction-data.php:4
+msgid "ID"
+msgstr ""
+
+#: views/html-order-table-transaction-data.php:8
+msgid "Order ID"
+msgstr ""
+
+#: views/html-order-table-transaction-data.php:12
+msgid "Method"
+msgstr ""
+
+#: views/html-order-table-transaction-data.php:20
+msgid "This order has been paid with test card data!"
+msgstr ""
+
+#: views/html-order-table-transaction-data.php:21
+msgid "Test"
+msgstr ""
+
+#: views/html-order-table-transaction-data.php:27
+msgid ""
+"NB: The transaction data is served from cached results. Click to view the "
+"order and update the cached data."
+msgstr ""
+
+#: views/html-order-table-transaction-data.php:28
+msgid "Cached"
+msgstr ""
+
+#: wc-unzer-direct.php:30
+msgid "WC Unzer Direct requires WooCommerce to be active."
+msgstr ""
+
+#: wc-unzer-direct.php:31
+msgid "Go to the plugins page to activate WooCommerce"
+msgstr ""
+
+#: wc-unzer-direct.php:315
+msgid "Settings"
+msgstr ""
+
+#: wc-unzer-direct.php:425
+msgid "Please type in the API key before requesting a private key"
+msgstr ""
+
+#: wc-unzer-direct.php:429
+msgid "You are not authorized to perform this action."
+msgstr ""
+
+#: wc-unzer-direct.php:651
+#, php-format
+msgid "No transaction ID for order: %s"
+msgstr ""
+
+#: wc-unzer-direct.php:661
+msgid "A non-captured payment cannot be refunded."
+msgstr ""
+
+#: wc-unzer-direct.php:663
+msgid "Transaction state does not allow refunds."
+msgstr ""
+
+#: wc-unzer-direct.php:807
+msgid "Unzer Direct Transaction ID"
+msgstr ""
+
+#: wc-unzer-direct.php:836
+#, php-format
+msgid "Unzer Direct Transaction ID updated from #%d to #%d"
+msgstr ""
+
+#: wc-unzer-direct.php:902
+msgid ""
+"<p><strong>Payment failure</strong> A problem with your payment on order "
+"<strong>#%i</strong> occured. Please try again to complete your order.</p>"
+msgstr ""
+
+#: wc-unzer-direct.php:909 wc-unzer-direct.php:1099
+msgid "Unzer Direct Payment"
+msgstr ""
+
+#: wc-unzer-direct.php:909
+msgid "Cancelled during process"
+msgstr ""
+
+#: wc-unzer-direct.php:911
+msgid "Payment cancelled"
+msgstr ""
+
+#: wc-unzer-direct.php:911
+msgid ""
+"Due to cancellation of your payment, the order process was not completed. "
+"Please fulfill the payment to complete your order."
+msgstr ""
+
+#: wc-unzer-direct.php:911
+#, php-format
+msgid "<p><strong>%s</strong>: %s</p>"
+msgstr ""
+
+#: wc-unzer-direct.php:966
+msgid "Payment cancelled."
+msgstr ""
+
+#: wc-unzer-direct.php:974
+#, php-format
+msgid "Refunded %s %s"
+msgstr ""
+
+#: wc-unzer-direct.php:1009
+#, php-format
+msgid "Transaction failed for #%s."
+msgstr ""
+
+#: wc-unzer-direct.php:1010
+#, php-format
+msgid "Unzer Direct status code: %s."
+msgstr ""
+
+#: wc-unzer-direct.php:1011
+#, php-format
+msgid "Unzer Direct status message: %s."
+msgstr ""
+
+#: wc-unzer-direct.php:1012
+#, php-format
+msgid "Acquirer status code: %s"
+msgstr ""
+
+#: wc-unzer-direct.php:1013
+#, php-format
+msgid "Acquirer status message: %s"
+msgstr ""
+
+#: wc-unzer-direct.php:1014
+#, php-format
+msgid "Data: %s"
+msgstr ""
+
+#: wc-unzer-direct.php:1022
+#, php-format
+msgid "Invalid callback body for order #%s."
+msgstr ""
+
+#: wc-unzer-direct.php:1103
+msgid "Unzer Direct Subscription"
+msgstr ""
+
+#: wc-unzer-direct.php:1146 wc-unzer-direct.php:1238
+msgid "Current payment state"
+msgstr ""
+
+#: wc-unzer-direct.php:1149
+msgid "Actions"
+msgstr ""
+
+#: wc-unzer-direct.php:1153 wc-unzer-direct.php:1160
+msgid "You are about to capture this payment"
+msgstr ""
+
+#: wc-unzer-direct.php:1153
+#, php-format
+msgid "Capture Full Amount (%s)"
+msgstr ""
+
+#: wc-unzer-direct.php:1156
+msgid "Remaining balance"
+msgstr ""
+
+#: wc-unzer-direct.php:1159
+msgid "Capture amount"
+msgstr ""
+
+#: wc-unzer-direct.php:1160
+msgid "Capture specified amount"
+msgstr ""
+
+#: wc-unzer-direct.php:1164
+msgid "You are about to cancel this payment"
+msgstr ""
+
+#: wc-unzer-direct.php:1164
+msgid "Cancel"
+msgstr ""
+
+#: wc-unzer-direct.php:1170 wc-unzer-direct.php:1240
+msgid "Transaction ID"
+msgstr ""
+
+#: wc-unzer-direct.php:1174 wc-unzer-direct.php:1244
+msgid "Transaction Order ID"
+msgstr ""
+
+#: wc-unzer-direct.php:1193
+msgid "Payment ID"
+msgstr ""
+
+#: wc-unzer-direct.php:1198
+msgid "Payment Link"
+msgstr ""
+
+#: wc-unzer-direct.php:1230
+msgid "subscription"
+msgstr ""
+
+#: wc-unzer-direct.php:1291
+msgid "Payment"
+msgstr ""
+
+#: wc-unzer-direct.php:1327
+msgid "Failed renewal"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Integrate Unzer Direct payment gateway with WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/wc-unzer-direct/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Unzer Direct payment gateway for WooCommerce"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Perfect Solution"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://perfect-solution.dk"
+msgstr ""
